@@ -41,7 +41,7 @@
   ],
   "license": "ISC",
   "bin": {
-    "filesearch": "index.js"
+    "args-mapper": "./bin/args-mapper"
   },
   "main": "index.js",
   "name": "args-mapper",
@@ -52,5 +52,9 @@
   "scripts": {
     "test": "test"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "find-root": "^1.1.0",
+    "fs-extra": "^5.0.0"
+  }
 }
