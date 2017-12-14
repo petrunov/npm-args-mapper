@@ -52,7 +52,7 @@
   "scripts": {
     "test": "test"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "devDependencies": {
     "find-root": "^1.1.0",
     "fs-extra": "^5.0.0"
