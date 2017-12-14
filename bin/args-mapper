@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+const mapper = require('../lib/args-mapper'),
+      path = require('path'),
+      find_root = require('find-root'),
+      root_path = find_root(process.cwd()),
+      root = path.normalize(root_path),
+      fs = require('fs-extra'),
+      rcFilePath = path.normalize(`${root}/.args-mapperrc`);
+
+let conf;
+
+if (!fs.existsSync(rcFilePath)) {
+  _exit(`Missing .args-mapperrc file at ${rcFilePath}`);
+}
+
+conf = fs.readJsonSync(rcFilePath);
+
+function _exit(msg) {
+  throw new Error(msg);
+}
+
+mapper(process.argv, conf); 

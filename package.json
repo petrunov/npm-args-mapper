@@ -1,0 +1,60 @@
+{
+  "_from": "args-mapper",
+  "_id": "args-mapper@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-hnXrz8SIpEi6jodrJrR7pSbSQRo=",
+  "_location": "/args-mapper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "args-mapper",
+    "name": "args-mapper",
+    "escapedName": "args-mapper",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/args-mapper/-/args-mapper-1.0.0.tgz",
+  "_shasum": "8675ebcfc488a448ba8e876b26b47ba526d2411a",
+  "_spec": "args-mapper",
+  "_where": "/Users/vesselinpetrunov/dev/js/args-mapper-test",
+  "author": {
+    "name": "Vesselin Petrunov",
+    "email": "vpetrunov@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/petrunov/npm-args-mapper/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": " Can map any argument passed to npm run-script after the '--' delimiter to any command chained with '&&' or '&'.",
+  "homepage": "https://github.com/petrunov/npm-args-mapper#readme",
+  "keywords": [
+    "arguments",
+    "mapper",
+    "run-script"
+  ],
+  "license": "ISC",
+  "bin": {
+    "args-mapper": "./bin/args-mapper"
+  },
+  "main": "index.js",
+  "name": "args-mapper",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petrunov/npm-args-mapper.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "find-root": "^1.1.0",
+    "fs-extra": "^5.0.0"
+  }
+}
