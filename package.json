@@ -40,6 +40,9 @@
     "run-script"
   ],
   "license": "ISC",
+  "bin": {
+    "filesearch": "index.js"
+  },
   "main": "index.js",
   "name": "args-mapper",
   "repository": {
