@@ -7,7 +7,7 @@
 # How to use
  * npm install args-mapper
  * Create a script in package.json that executes more than one command, e.g: "test": "npm run test:unit && npm run test:e2e"
- * Change this to be executed through args-mapper, i.e: "test": "args-mapper --cmd=\"npm run test:unit && npm run test:e2e\""
+ * Change this to be executed through args-mapper, i.e: "test": "args-mapper --cmd=\\"npm run test:unit && npm run test:e2e\\""
  * Create a JSON .args-mapperrc file in the project root directory to map any argument to these commands, e.g:
 ```
   {
